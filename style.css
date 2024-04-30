@@ -1,0 +1,106 @@
+body {
+    height: 170vh;
+    width: 150vw;
+    /* font-display: burlywood 1px; */
+}
+
+header {
+    width: 100%;
+    height: 10%;
+    /* border: solid red 2px; */
+    /* display: flexbox; */
+
+}
+
+h1 {
+    font-style: italic;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 40px;
+    /* color:darkred; */
+}
+
+#main {
+    width: 100%;
+    height: 70%;
+    /* border: solid blue 2px; */
+    display: flex; 
+    /* text-indent:20px; */
+}
+/* #indent {text-indent: 20px;} */
+/* section{ display:flex; */
+    /* justify-content: flex-start;} */
+footer {
+    width: 100%;
+    height: 6%;
+    /* border: 2px solid; */
+    /* padding-right: ; */
+}
+
+/* display:flex; */
+/* flex-wrap:wrap-reverse} */
+
+#content {
+    width: 50%;
+    /* background-color: blue; */
+    height: 100%;
+    padding-left: 2%;
+    padding-right:5%; }
+    a{color: darkred;
+    /* text-indent: 20%; */
+}
+div.a{text-indent: 20px;}
+/* line-height: o%} */
+
+
+aside {
+    width: 25%;
+    height: 10%;
+    /* background-color: purple; display: flex-column; */
+    /* align-content: flex-start; */
+    /* color: darkred; */
+}
+
+h3 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    align-items: center;
+    /* font-style: italic; */
+    /* color:darkred; */
+}
+
+nav {
+    width: 25%;
+    height: 100%;
+    /* background-color: red ; */
+    display: flex;
+    justify-content: space-around;
+    color: darkred;
+}
+
+ul {
+    /* display: flex-column; */
+    width: 70%;
+    height: 15%;
+    justify-content: space-around;
+    color: darkred;
+}
+
+
+button {
+    /* display: inline-flex; */
+    width: 100%;
+    height: 50%;
+    /* justify-content: space-around; */
+    margin-bottom: 1px;
+    margin-top: 7%;
+    align-self: flex-end;
+    /* background-color: white; */
+    color: darkred;
+}
+hr{height:4px;
+background-color:darkred;
+border-color:darkred;}
